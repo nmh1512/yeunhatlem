@@ -432,7 +432,7 @@
         }
         .hearts_container {
             display: none;
-            width: 100%;
+            width: 50%;
             align-items: center;
             justify-content: center;
             height: 150px;
@@ -465,6 +465,25 @@
         .list_hearts img:nth-child(3) {
             top: 3px;
             left: 34px;
+        }
+        @media screen and (max-width: 600px) {
+            .hearts_container {
+            display: none;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            height: 150px;
+            position: absolute;
+        }
+        .text_love {
+            display: none;
+            position: absolute;
+            color: #d05478;
+            font-weight: 600;
+            font-size: 22px;
+            padding: 0 20px;
+            text-align: center;
+        } 
         }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
